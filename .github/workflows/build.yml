@@ -40,10 +40,11 @@ jobs:
           git clone https://github.com/nooga/paserati
 
           cd paserati
-          go build -o paserati ./cmd/paserati/
+          # go build -o paserati ./cmd/paserati/
+          go build ./cmd/paserati/main.go
 
           mkdir dist
-          mv ./paserati dist/paserati
+          mv ./main dist/paserati
 
           ls -lh dist
 
