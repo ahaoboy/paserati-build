@@ -1,1 +1,1 @@
-https://github.com/dop251/goja.git
+https://github.com/nooga/paserati
